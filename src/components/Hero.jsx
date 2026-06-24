@@ -103,7 +103,7 @@ videoRef.current.onloadedmetadata=()=>{
           ref={videoRef}
           muted
           playsInline
-
+          preload="auto"
         />
       </div>
     </>
